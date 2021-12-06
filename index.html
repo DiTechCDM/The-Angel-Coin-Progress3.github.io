@@ -1,0 +1,780 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="viewport" content="height=device-height,initial-scale=1,maximum-scale=1,user-scalable=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Font Awesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- External CSS Link -->
+    <link rel="stylesheet" href="./Assets/CSS/style.css">
+
+    <!-- FavIcon -->
+    <link rel="shortcut icon" href="./Assets/Logos/FavIcon.png" type="image/x-icon">
+
+    <title>The Angel Coin</title>
+</head>
+
+<body>
+    <!-- Navbar component starts here -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light">
+        <div class="container-fluid Navbar-wrapper">
+            <a class="navbar-brand" href="#"><img src="./Assets/Logos/Logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><i onclick="changeToggle(this)" class="fas fa-bars"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            About Us
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#RoadMap_section">Roadmap & History</a></li>
+                            <li><a class="dropdown-item" href="#techinal_section">Technical Facts</a></li>
+                            <li><a class="dropdown-item" href="#benefits_section">Benefits</a></li>
+                            <li><a class="dropdown-item" href="#News_section">Market Insights</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#Isotope_section">Ecosystem</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#contact_us_section">Contact Us</a>
+                    </li>
+                </ul>
+                <!-- select language starts here -->
+                <a href="https://btrlexchange.com/" target="_blank"><button class="CTA-btn">Go At Exchange <span
+                            class="rotate"><i class="fas fa-long-arrow-alt-right"></i></span></button></a>
+                <!-- select language ends here -->
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar component ends here -->
+
+    <!-- hero banner component starts here -->
+    <section class="banner-section">
+        <!-- The CSS grid area that displays the image (layer 1) -->
+        <div class="container banner-wrapper">
+            <div class="banner-image">
+                <!-- <img class="image" src="./Assets/Images/hero-banner.jpg" alt="Banner Image" /> -->
+            </div>
+            <!-- The CSS grid area that displays the semi-transparent gradient overlay (layer 2) -->
+            <div class="banner-overlay-div"></div>
+            <!-- The CSS grid area that displays the content (layer 3) -->
+            <div class="banner-text-div">
+                <span class="banner-text">
+                    <h1>The Angel Coin Your <br> Wings Starts Here</h1>
+                    <p>TAC token is a decentralized cryptocurrency network based <br> on ERC20 having its own blockchain
+                        platform where smart <br> contracts can also be managed.</p>
+                    <a href="./Assets/PDF/TAC Whitepaper .pdf" target="_blank"><button class="CTA-btn-1">TAC
+                            WhitePaper</button></a>
+                </span>
+            </div>
+        </div>
+    </section>
+    <!-- hero banner component ends here -->
+
+    <!-- positioning component starts here -->
+    <section id="positioning_section">
+        <div class="container positioning-wrapper">
+            <p>Invest in most lucrative, fastest and protected operations - The Size of the blockchain
+                technology market worldwide is 1.2bn USD
+            </p>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="grid-sm">
+                <div class="grid-col">
+                    <h2>2,10,00,000 <span>TAC</span></h2>
+                    <p>Maximum Supply</p>
+                </div>
+                <div class="grid-col">
+                    <h2>ERC20</h2>
+                    <p>Type</p>
+                </div>
+                <div class="grid-col">
+                    <h2>8</h2>
+                    <p>Decimal</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- positioning component ends here -->
+
+    <!-- Roadmap component starts here -->
+    <section id="RoadMap_section">
+        <div class="container">
+            <h2>Roadmap & History</h2>
+            <p>Enabling the world to move value like it moves information today</p>
+            <img src="./Assets/Images/Roadmap-01.png" id="large" alt="">
+            <img src="./Assets/Images/Roadmap-02.png" id="mobile" alt="">
+        </div>
+    </section>
+    <!-- Roadmap component ends here -->
+
+    <!-- Isotope filter component starts here -->
+    <section id="Isotope_section">
+        <div class="container Isotope-wrapper">
+            <h2>Ecosystem</h2>
+            <p>Building a Highly Scalable Blockchain Ecosystem</p>
+            <!-- grid layout starts here -->
+            <div class="grid-sm-01">
+                <div class="grid-col-02 actives" onclick="showThird()">
+                    <img src="./Assets/Logos/smart-contracts.png" alt="">
+                    <p>Smart Contract</p>
+                </div>
+                <div class="grid-col-02" onclick="showSec()">
+                    <img src="./Assets/Logos/solution.png" alt="">
+                    <p>TAC Solution</p>
+                </div>
+                <div class="grid-col-02" onclick="showFirst()">
+                    <img src="./Assets/Logos/planning.png" alt="">
+                    <p>Security Chain</p>
+                </div>
+                <!-- <div class="grid-col-02" onclick="showFourth()">
+                    <img src="./Assets/Logos/big-data.png" alt="">
+                    <p>Computer Vision</p>
+                </div> -->
+            </div>
+            <!-- grid layout ends here -->
+            <!-- second grid layout starts here -->
+            <div class="container row-hide-show">
+                <div class="colsm-03" id="fisrtDiv" style="display: none;">
+                    <!-- grid layout starts here -->
+                    <div class="grid-sm-03">
+                        <div class="grid-col-03">
+                            <h3>Secure Capital for Your Payments</h3>
+                            <p>Your financial institution can use TAC to complete instant, low-cost cross-border
+                                transfers. We allow you to lock in a rate at the time of the payment, then repay us when
+                                it’s convenient for you, for a small fee.
+                            </p>
+                            <a href="#contact_us_section"><button class="CTA-btn-2">Get Connected</button></a>
+                        </div>
+                        <div class="grid-col-03">
+                            <div class="grid-row-sm">
+                                <div class="grid-col-sm-2">
+                                    <div class="hyphen-grid">
+                                        <div class="img-grid">
+                                            <img src="https://ripple.com/wp-content/themes/ripple-beta/assets/img/ripplenet/Valuable@2x.svg"
+                                                alt="">
+                                        </div>
+                                        <div class="img-grid">
+                                            <h4>Valuable</h4>
+                                            <p>Improve your working capital position and fund fresh growth for your
+                                                business.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid-col-sm-2">
+                                    <div class="hyphen-grid">
+                                        <div class="img-grid">
+                                            <img src="https://ripple.com/wp-content/themes/ripple-beta/assets/img/ripplenet/Anywhere.svg"
+                                                alt="">
+                                        </div>
+                                        <div class="img-grid">
+                                            <h4>Scalable</h4>
+                                            <p>Access any global market using one simple credit arrangement through
+                                                RippleNet.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid-col-sm-2">
+                                    <div class="hyphen-grid">
+                                        <div class="img-grid">
+                                            <img src="https://ripple.com/wp-content/themes/ripple-beta/assets/img/ripplenet/Efficient.svg"
+                                                alt="">
+                                        </div>
+                                        <div class="img-grid">
+                                            <h4>Efficient</h4>
+                                            <p>Start payments without having to manage your account balance.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid-col-sm-2">
+                                    <div class="hyphen-grid">
+                                        <div class="img-grid">
+                                            <img src="https://ripple.com/wp-content/themes/ripple-beta/assets/img/ripplenet/Smart@2x.svg"
+                                                alt="">
+                                        </div>
+                                        <div class="img-grid">
+                                            <h4>Cost-effective</h4>
+                                            <p>Benefit from competitive rates that lower your cost of capital.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- grid layout ends here -->
+                </div>
+                <div class="colsm-03" id="secDiv" style="display: none;">
+                    <!-- grid layout starts here -->
+                    <div class="grid-sm-03">
+                        <div class="grid-col-03">
+                            <h3>The Power of TAC</h3>
+                            <p>With the most advanced blockchain technology for global payments, financial institutions
+                                are able to expand into new markets around the world and even eliminate pre-funding by
+                                leveraging the power of TAC On-Demand Liquidity service.
+                            </p>
+                            <a href="./Assets/PDF/TAC Whitepaper .pdf"><button class="CTA-btn-2">TAC WhitePaper</button></a>
+                        </div>
+                        <div class="grid-col-03">
+                            <div class="grid-row-sm">
+                                <div class="grid-col-sm-2">
+                                    <div class="hyphen-grid">
+                                        <div class="img-grid">
+                                            <img style="width: 80px;"
+                                                src="https://ripple.com/wp-content/themes/ripple-beta/assets/img/illustrations/decentralized-infrastructure-v3@2x.png"
+                                                alt="">
+                                        </div>
+                                        <div class="img-grid">
+                                            <h4>Decentralized
+                                                Infrastructure</h4>
+                                            <p>Improve your working capital position and fund fresh growth for your
+                                                business.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid-col-sm-2">
+                                    <div class="hyphen-grid">
+                                        <div class="img-grid">
+                                            <img style="width: 80px;"
+                                                src="https://ripple.com/wp-content/themes/ripple-beta/assets/img/illustrations/modernized-messaging@2x.png"
+                                                alt="">
+                                        </div>
+                                        <div class="img-grid">
+                                            <h4>Modernized
+                                                Messaging</h4>
+                                            <p>100% Transparency</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid-col-sm-2">
+                                    <div class="hyphen-grid">
+                                        <div class="img-grid">
+                                            <img style="width: 80px;"
+                                                src="https://ripple.com/wp-content/themes/ripple-beta/assets/img/illustrations/liquidity-solutions@2x.png"
+                                                alt="">
+                                        </div>
+                                        <div class="img-grid">
+                                            <h4>Liquidity
+                                                Solutions</h4>
+                                            <p>$0 in pre-funding</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- grid layout ends here -->
+                </div>
+                <div class="colsm-03" id="thirdDiv">
+                    <!-- grid layout starts here -->
+                    <div class="grid-sm-03">
+                        <div class="grid-col-03">
+                            <h3>The ERC20 Standards</h3>
+                            <p>TAC is based on the ERC20 standard. The TAC community network or TAC may malfunction or
+                                operate unexpectedly if the ERC20 protocol malfunctions or operates unexpectedly.
+                            </p>
+                            <p>A computer software running on the ERC20 network or a blockchain network compatible with
+                                the Smart Contract programming language will govern the allocation of tokens. The TAC
+                                community, including its bodies and personnel, accepts no duty or responsibility for any
+                                loss or harm resulting from or related to token holders' incapacity to utilise TAC
+                                tokens.
+                            </p>
+                            <a href="./Assets/PDF/TAC Whitepaper .pdf"><button class="CTA-btn-2">TAC WhitePaper</button></a>
+                        </div>
+                        <div class="grid-col-03">
+                            <h3>Decentralized CryptoCurrency Network</h3>
+                            <p>Participants may trade with one another using smart contracts that are implemented on a
+                                blockchain network, and their transactions are safeguarded by the "law of code" imposed
+                                by smart contracts.
+                            </p>
+                            <div class="grid-row-sm py-5">
+                                <div class="grid-col-sm-2">
+                                    <div class="hyphen-grid">
+                                        <div class="img-grid">
+                                            <img src="https://ripple.com/wp-content/themes/ripple-beta/assets/img/ripplenet/Valuable@2x.svg"
+                                                alt="">
+                                        </div>
+                                        <div class="img-grid">
+                                            <h4>Security</h4>
+                                            <p>TAC runs on a trustless Proof-of-stake network where validators are
+                                                themselves stakers.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid-col-sm-2">
+                                    <div class="hyphen-grid">
+                                        <div class="img-grid">
+                                            <img src="https://ripple.com/wp-content/themes/ripple-beta/assets/img/ripplenet/Anywhere.svg"
+                                                alt="">
+                                        </div>
+                                        <div class="img-grid">
+                                            <h4>Scalable</h4>
+                                            <p>TAC is having capability to process thousands of transactions per seconds
+                                                and scale to thousands of nodes.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid-col-sm-2">
+                                    <div class="hyphen-grid">
+                                        <div class="img-grid">
+                                            <img src="https://ripple.com/wp-content/themes/ripple-beta/assets/img/ripplenet/Efficient.svg"
+                                                alt="">
+                                        </div>
+                                        <div class="img-grid">
+                                            <h4>Interoperabitlity</h4>
+                                            <p>Using TAC you can transfer or trade assets or coins from one chain to
+                                                another.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid-col-sm-2">
+                                    <div class="hyphen-grid">
+                                        <div class="img-grid">
+                                            <img src="https://ripple.com/wp-content/themes/ripple-beta/assets/img/ripplenet/Smart@2x.svg"
+                                                alt="">
+                                        </div>
+                                        <div class="img-grid">
+                                            <h4>Bridge</h4>
+                                            <p>Native support for cross-chain communication among the two blockchains.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- grid layout ends here -->
+                </div>
+            </div>
+            <!-- second grid layout ends here -->
+        </div>
+    </section>
+    <!-- Isotope filter component ends here -->
+
+    <!-- chart component starts here -->
+    <section id="chart_wrapper">
+        <div class="container chart-wrapper">
+            <h2>TAC Market Performance</h2>
+            <p class="mb-5">Limited on over 130 exchanges, TAC one of the most promising cryptos.</p>
+            <div class='row-chart'>
+                <div class='chart-bg-col'>
+                    <div class='chart-js'>
+                        <div id="chart"></div>
+                    </div>
+                </div>
+                <div class='chart-col'>
+                    <div>
+                        <p>Maximum Supply</p>
+                        <p class="dollars">2,10,00,000 <span>TAC</span></p>
+                    </div>
+                    <div>
+                        <p>Type</p>
+                        <p class="dollars">ERC20</p>
+                    </div>
+                    <div>
+                        <p>Decimal</p>
+                        <p class="dollars">8</p>
+                    </div>
+                </div>
+            </div>
+            <!-- grid layout starts here -->
+            <div class="grid-row-04">
+                <div class="grid-col-04">
+                    <p>Current Price</p>
+                    <p class="dollars">$9,936,95M</p>
+                </div>
+                <div class="grid-col-04">
+                    <p>Transaction Volume (24b)</p>
+                    <p class="dollars">$9,936,95M</p>
+                </div>
+                <div class="grid-col-04">
+                    <p>Transaction Count (24b)</p>
+                    <p class="dollars">$9,936,95M</p>
+                </div>
+            </div>
+            <!-- grid layout ends here -->
+        </div>
+    </section>
+    <!-- chart component ends here -->
+
+    <!-- BTRL Buy Trade component starts here -->
+    <section id="BTRL_section">
+        <div class="container-fluid">
+            <div class='BTRL-row'>
+                <div class='BTRL-col'>
+                    <div class='img-overlap'>
+                        <img src="./Assets/Images/Screens.png" alt="">
+                    </div>
+                </div>
+                <div class='BTRL-col'>
+                    <div class='text-col'>
+                        <span class="gradient">BTRL EXCHANGE</span>
+                        <h2>Cryptocurrency Trading <br> Platform of the Future</h2>
+                        <p>We believe in financial inclusion, which means that wealth, <br> investment, and financial
+                            asset
+                            accumulation should be <br> accessible to all people.</p>
+                        <div class="grid-sm-list">
+                            <div class="grid-col-list"><span><i class="far fa-check-square"></i></span><span>Ultimate
+                                    Security Protection</span></div>
+                            <div class="grid-col-list"><span><i class="far fa-check-square"></i></span><span>Simple &
+                                    Quick KYC</span></div>
+                            <div class="grid-col-list"><span><i class="far fa-check-square"></i></span><span>Transaction
+                                    Efficiency</span></div>
+                            <div class="grid-col-list"><span><i class="far fa-check-square"></i></span><span>Efficient
+                                    Design</span></div>
+                        </div>
+                        <div class="btn">
+                            <a class="CTA-btn-4" href="https://btrlexchange.com/exchange/tac/inr" role="button">Buy</a>
+                            <a class="CTA-btn-5 ms-3" href="https://btrlexchange.com/exchange/tac/inr"
+                                role="button">Trade</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- BTRL Buy Trade component ends here -->
+
+    <!-- Technical fact component starts here -->
+    <section id="techinal_section">
+        <div class="container techical-wrapper">
+            <div class="technical-text">
+                <h2>Technical Facts</h2>
+                <p>TAC's unique platform helps to bridge the gap that exists between investors <br> and investment
+                    possibilities. The following is a list of our key statistics.</p>
+            </div>
+            <!-- grid-layout starts here -->
+            <div class="grid-sm-09">
+                <div class="grid-col-09">
+                    <span>
+                        <h4>Fast</h4> <span class="img-logo"><img src="./Assets/Logos/clock.png" alt=""></span>
+                    </span>
+                    <p>The Angel Coin makes transactions instantaneously irreversible, eliminating the need to wait for
+                        confirmations that might take dozens of minutes or longer.</p>
+                </div>
+                <div class="grid-col-09">
+                    <span>
+                        <h4>Compatible</h4> <span class="img-logo"><img src="./Assets/Logos/puzzle.png" alt=""></span>
+                    </span>
+                    <p>Attributed to the reason that the Angel Coin is fully compatible, any current Ethereum smart
+                        contract and tools can be utilised at The Angel Coin.</p>
+                </div>
+                <div class="grid-col-09">
+                    <span>
+                        <h4>Modular</h4> <span class="img-logo"><img src="./Assets/Logos/modular.png" alt=""></span>
+                    </span>
+                    <p>TACI's modular internal design is adaptable, readily adjustable, and less error-prone than other
+                        architectures.
+                    </p>
+                </div>
+            </div>
+            <!-- grid-layout ends here -->
+        </div>
+    </section>
+    <!-- Technical fact component ends here -->
+
+    <!-- benfits component starts here -->
+    <section id="benefits_section">
+        <div class="container">
+            <div class='benefit-row'>
+                <div class='benefit-col'>
+                    <p>BENEFITS</p>
+                </div>
+                <div class='benefit-aside'>
+                    <div class='line-hr'>
+                        <!-- aside row starts here -->
+                        <div class='text-aside-row'>
+                            <div class='mui-col'>
+                                <img src="./Assets/Logos/Asset 1@72x.png" alt="">
+                            </div>
+                            <div class='dbl-aside-col'>
+                                <div class='mui-text'>
+                                    <p>
+                                        The Angle Coin (TAC) is a blockchain platform designed for efficiency, providing
+                                        a quick, safe, and less expensive environment for developing decentralised apps.
+                                        IT restores confidence in global systems by using science to provide a more
+                                        secure, transparent, and long-term basis for people to trade and exchange, as
+                                        well as businesses to develop.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="quote-text">
+                            <blockquote class="quote"><i class="fas fa-quote-left"></i></blockquote>
+                            <p>The TAC Token is a cryptocurrency that, via its groundbreaking platform, strives to
+                                bridge the gap that exists between investors and investment possibilities.</p>
+                        </div>
+                        <!-- aside row ends here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- benfits component ends here -->
+
+        <!-- News Blog component starts here -->
+        <section id="News_section">
+            <div class="container news-wrapper">
+                <div class="text-center">
+                    <span>NEWS & BLOG</span>
+                    <h2>Market Insights</h2>
+                </div>
+                <div class="grid-news">
+                    <div class="grid-col-news">
+                        <div class="Img-text-overlay">
+                            <p>AngelCoin</p>
+                            <h3>How far can your visibility take you against today's cyber threats?</h3>
+                            <a href="#"><button class="CTA-btn-10">Read More <span class="rotate"><i
+                                            class="fas fa-long-arrow-alt-right"></i></span></button></a>
+                        </div>
+                    </div>
+                    <div class="grid-col-news">
+                        <div class="Img-text-overlay">
+                            <p>AngelCoin</p>
+                            <h3>How far can your visibility take you against today's cyber threats?</h3>
+                            <a href="#"><button class="CTA-btn-10">Read More <span class="rotate"><i
+                                            class="fas fa-long-arrow-alt-right"></i></span></button></a>
+                        </div>
+                    </div>
+                    <div class="grid-col-news">
+                        <div class="Img-text-overlay">
+                            <p>AngelCoin</p>
+                            <h3>How far can your visibility take you against today's cyber threats?</h3>
+                            <a href="#"><button class="CTA-btn-10">Read More <span class="rotate"><i
+                                            class="fas fa-long-arrow-alt-right"></i></span></button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="m-auto">
+                    <a href="#"><button class="CTA-btn-11 bg-nocolor">View More <span class="rotate"><i
+                                    class="fas fa-long-arrow-alt-right"></i></span></button></a>
+                </div>
+            </div>
+        </section>
+    </section>
+    <!-- News Blog component ends here -->
+
+    <!-- contact us component starts here -->
+    <section id="contact_us_section">
+        <div id="particles-js">
+            <div class="container particles-wrapper">
+                <h2>Get In Touch!</h2>
+                <p>We are available at all times and appreciate any inquiries you may have for our staff.</p>
+
+                <!-- form -->
+                <form action="">
+                    <div class="mb-4">
+                        <label for="exampleFormControlInput1" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1"
+                            placeholder="Enter your name">
+                    </div>
+                    <div class="mb-4">
+                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1"
+                            placeholder="name@example.com">
+                    </div>
+                    <div class="mb-4">
+                        <label for="exampleFormControlInput1" class="form-label">Website address</label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1"
+                            placeholder="www.example.com">
+                    </div>
+                    <div class="mb-4">
+                        <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                            placeholder="Enter your message...."></textarea>
+                    </div>
+                    <p class="encrypted-text"><span><i class="fas fa-lock"></i></span><span class="ps-3">Your data is
+                            secure. The connection to this website is encrypted.</span></p>
+                    <div class="m-auto">
+                        <a href="#"><button class="CTA-btn-11 btn-send">Send<span class="rotate"><i
+                                        style="padding: 0.3em;" class="fas fa-paper-plane"></i></span></button></a>
+                    </div>
+                </form>
+                <!-- form -->
+            </div>
+        </div>
+    </section>
+    <!-- contact us component ends here -->
+
+    <!-- footer component starts here -->
+    <!-- <footer>
+        <div class="container footer-wrapper">
+            <div class="footer-grid-row mb-3">
+                <div class="footer-grid-col">
+                    <div class="crypto-br"></div>
+                    <img src="https://ditechcdm.github.io/furry-rotary-phone.github.io/Logo-Black.png" alt=""> <br>
+                    <div class="social-links my-3">
+                        <a href="#" class="me-2"><img src="./Assets/Logos/facebook.png" style="min-width: 3%;width: 9%;"
+                                alt=""></a>
+                        <a href="#" class="me-3"><img src="./Assets/Logos/instagram.png"
+                                style="min-width: 3%;width: 8%;" alt=""></a>
+                        <a href="#"><img src="./Assets/Logos/twitter.png" style="min-width: 3%;width: 9%;" alt=""></a>
+                    </div>
+                    <p class="footer-para">Lorem Ipsum is simply dummy text of printing and typesetting industry. Lorem
+                        Ipsum has been the industry's.</p>
+                    <div class="btn">
+                        <a class="CTA-btn-4" href="#" role="button">Buy</a>
+                        <a class="CTA-btn-5 ms-3" href="#" role="button">Trade</a>
+                    </div>
+                </div>
+                <div class="footer-grid-col">
+                    <p>Quick Links</p>
+                    <div class="crypto-br"></div>
+                    <div class="listing">
+                        <p><a href="#">Home</a></p>
+                        <p><a href="#">Intro to AngelCoin</a></p>
+                        <p><a href="#">Stake on AngelCoin</a></p>
+                        <p><a href="#">AGL Coin</a></p>
+                        <p><a href="#">The Consensus</a></p>
+                    </div>
+                </div>
+                <div class="footer-grid-col">
+                    <p>Ecosystem</p>
+                    <div class="crypto-br"></div>
+                    <div class="listing">
+                        <p><a href="#">About Us</a></p>
+                        <p><a href="#">Media and Press Release</a></p>
+                        <p><a href="#">Roadmap</a></p>
+                        <p><a href="#">Community</a></p>
+                        <p><a href="#">Team</a></p>
+                    </div>
+                </div>
+                <div class="footer-grid-col border-0">
+                    <p>BTRL Exchange</p>
+                    <div class="listing">
+                        <p><a href="#">Buy AngelCoin</a></p>
+                        <p><a href="#">Buy Ethereum</a></p>
+                        <p><a href="#">Buy TRON</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-ipad mt-5">
+                <div class="crypto-br"></div>
+                <img src="https://ditechcdm.github.io/furry-rotary-phone.github.io/Logo-Black.png" alt=""> <br>
+                <div class="social-links my-3">
+                    <a href="#" class="me-2"><img src="./Assets/Logos/facebook.png" style="min-width: 3%;width: 5%;"
+                            alt=""></a>
+                    <a href="#" class="me-3"><img src="./Assets/Logos/instagram.png" style="min-width: 3%;width: 5%;"
+                            alt=""></a>
+                    <a href="#"><img src="./Assets/Logos/twitter.png" style="min-width: 3%;width: 5%;" alt=""></a>
+                </div>
+                <p class="footer-para">Lorem Ipsum is simply dummy text of printing and typesetting industry. Lorem
+                    Ipsum has been the industry's.</p>
+                <div class="btn">
+                    <a class="CTA-btn-4" href="#" role="button">Buy</a>
+                    <a class="CTA-btn-5 ms-3" href="#" role="button">Trade</a>
+                </div>
+            </div>
+        </div>
+    </footer> -->
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid-09 new-wrapper">
+                <div class='footer-aside-row'>
+                    <div class='links-footer'>
+                        <div class='logo-col-left'>
+                            <img src="https://ditechcdm.github.io/furry-rotary-phone.github.io/Logo-Black.png" alt="">
+                            <div class="social-links my-3">
+                                <a href="https://www.facebook.com/TheAngelCoin" class="me-2"><img
+                                        src="./Assets/Logos/facebook.png" style="min-width: 3%;width: 8%;" alt=""></a>
+                                <a href="https://www.instagram.com/theangelcoin/" class="me-3"><img
+                                        src="./Assets/Logos/instagram.png" style="min-width: 3%;width: 8%;" alt=""></a>
+                                <a href="https://twitter.com/TheAngelCoin1"><img src="./Assets/Logos/twitter.png" style="min-width: 3%;width: 8%;"
+                                        alt=""></a>
+                            </div>
+                            <div class="btn mt-3">
+                                <a class="CTA-btn-4" href="https://btrlexchange.com/exchange/tac/inr" role="button">Buy</a>
+                                <a class="CTA-btn-5 ms-3" href="https://btrlexchange.com/exchange/tac/inr" role="button">Trade</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='footer-dbl-col'>
+                        <p class="footer-para1 mb-4">TAC is not only quick and inexpensive, but it is also censorship
+                            resistant. In other words, the network will always be available for transactions and will
+                            never be closed to applications.</p>
+                        <div class="social-links">
+                            <div class="crypto-dash"></div>
+                            <p>Quick Links</p>
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Ecosystem</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <section id="copyrights">
+        <div class="container">
+            <p class="mt-5 mb-0 desc">The Angel Coin, LLC ©2021 All Rights Reserved.
+            </p>
+        </div>
+    </section>
+    <!-- footer component ends here -->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Navbar dropdown animation -->
+    <script src="./Assets/JS/Navbar.js"></script>
+    <!-- Navbar scroll function -->
+    <script src="./Assets/JS/Navbar-scroll.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('.grid-sm-01 .grid-col-02').click(function () {
+                $(this).addClass('actives');
+                $(this).siblings().removeClass('actives');
+            });
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script src="./Assets/JS/filter.js"></script>
+    <script src="./Assets/JS/chart.js"></script>
+    <script src="./Assets/JS/particles.js"></script>
+    <script src="./Assets/JS/app.js"></script>
+    <script src="./Assets/JS/Toggle-icon.js"></script>
+</body>
+
+</html>
